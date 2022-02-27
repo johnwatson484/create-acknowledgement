@@ -1,3 +1,6 @@
+[![Build Status](https://dev.azure.com/johnwatson484/John%20D%20Watson/_apis/build/status/Create%20Acknowledgement?branchName=main)](https://dev.azure.com/johnwatson484/John%20D%20Watson/_build/latest?definitionId=59&branchName=main)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=johnwatson484_create-acknowledgement&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=johnwatson484_create-acknowledgement)
+
 # Create Acknowledgement
 Azure Function to create acknowledgement file on receipt of file
 
