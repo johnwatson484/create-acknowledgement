@@ -81,4 +81,4 @@ stages:
               appType: 'functionAppLinux'
               appName: '$(functionAppName)'
               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
-              appSettings: '-BATCH_STORAGE $(BATCH_STORAGE) -MESSAGE_CONNECTION $(MESSAGE_CONNECTION) -ACKNOWLEDGMENT_TOPIC $(ACKNOWLEDGMENT_TOPIC)'
+              appSettings: '-BATCH_STORAGE $(BATCH_STORAGE) -MESSAGE_CONNECTION $(MESSAGE_CONNECTION) -ACKNOWLEDGEMENT_TOPIC $(ACKNOWLEDGEMENT_TOPIC)'
