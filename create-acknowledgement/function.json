@@ -4,8 +4,22 @@
       "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "samples-workitems/{name}",
-      "connection": "createacknowledgement_STORAGE"
+      "path": "target/{name}.dat",
+      "connection": "BATCH_STORAGE"
+    },
+    {
+      "name": "outputSbTopic",
+      "type": "serviceBus",
+      "topicName": "acknowledgement",
+      "connection": "MESSAGE_CONNECTION",
+      "direction": "out"
+    },
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "{blobTrigger}.ack",
+      "connection": "BATCH_STORAGE",
+      "direction": "out"
     }
   ]
 }
