@@ -10,7 +10,7 @@
     {
       "name": "outputSbTopic",
       "type": "serviceBus",
-      "topicName": "ACKNOWLEDGMENT_TOPIC",
+      "topicName": "%ACKNOWLEDGMENT_TOPIC%",
       "connection": "MESSAGE_CONNECTION",
       "direction": "out"
     },
